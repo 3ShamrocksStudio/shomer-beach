@@ -1,0 +1,54 @@
+{
+  "name": "Shomer Beach — Citizens For the Coast",
+  "short_name": "Shomer Beach",
+  "description": "Coastal & marine guardian app. Live beach-hazard map, instant SOS, and community help for drowning, dangerous currents, jellyfish/shark sightings, marine animals in distress, pollution and spills. By 3Shamrocks.Studio",
+  "start_url": "shomer-beach.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A1628",
+  "theme_color": "#0A1628",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "SOS Emergency",
+      "short_name": "SOS",
+      "description": "Trigger immediate coastal emergency alert",
+      "url": "shomer-beach.html?sos=true",
+      "icons": [
+        {
+          "src": "sos-icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Report Hazard",
+      "short_name": "Report",
+      "description": "Quickly report a beach hazard",
+      "url": "shomer-beach.html#report",
+      "icons": [
+        {
+          "src": "report-icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "categories": ["safety", "emergency", "community", "weather"],
+  "lang": "he",
+  "dir": "rtl"
+}
